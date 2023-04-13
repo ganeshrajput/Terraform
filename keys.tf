@@ -1,0 +1,7 @@
+
+# Creating Key_pairs
+
+resource "aws_key_pair" "loginkey" {
+  key_name   = "loginkey"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDKG+/jeh2bsuUvrOxvyUHGvqqR77Bh98+lPHgJjpp7yB3/vodz6i8lozMAbkbPMicKJx1D/6grCmFakTTlC8Nk8nZRi5Y/Zr+Vab2Wk6xP/D8+y1JrRxoU0rJqBCkpB/PewpTh0MjZWfv5xXykkwihpq69mtGXOaX5IfnC+pou/NtyGqEV3z5M3XVoOe5XiEWfMnoitBu+Sucrs6sM80bY9u9FuHKbBCA+SNPORoX+6afXMsRQOe+9sWu0tEvvb9Yvqto8dDYCN2mCsj8UaawavXbP1S/eh4MBtJmifdNifR3NA4QhSbe1gqLBlbMBQwlCdpZBjuHWJnr+URUdihRN/PHPp0YySGaGu5Gpqe/eU9vpVx7URSUbJ0lM02sI6ZlGINVODGuNeDnsVyKV5KzmHKtGGEpOuEqZcP8pxfvjgkcztFSefhmi0V8bHObQkf2/0CiLRSN68VeHeVFY8bVE04dgwIto/K2aFUMJT2gcBd5Z/Q8iv9mxoXDo9R1zwGM= Ganesh RAJPUT@DESKTOP-A1N9VGA"
+}
